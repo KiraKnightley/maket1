@@ -259,6 +259,12 @@ body{
     color: #1B1C21;
 }
 
+@media screen and (min-width: 767px) and (max-width: 1119px){
+    .title__banner{
+        margin-left: 24px;
+    }
+}
+
 @media screen and (min-width: 1119px){
     .title__banner{
         margin-left: 32px;
