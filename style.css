@@ -57,11 +57,12 @@ body{
 
 @media screen and (min-width: 1119px){
     .header__container{
-        position: absolute;
-        top: 42px;
-        left: 715px;
-        padding: 0;
-        height: auto;
+        /*position: absolute;*/
+        /*top: 42px;*/
+        /*left: 715px;*/
+        /*padding: 0;*/
+        /*height: auto;*/
+        display: none;
     }
 }
 
@@ -268,6 +269,38 @@ body{
 @media screen and (min-width: 1119px){
     .title__banner{
         margin-left: 32px;
+    }
+}
+
+.main__tools{
+    display: none;
+}
+
+@media screen and (min-width: 1119px){
+    .main__tools{
+        display: flex;
+        margin-left: auto;
+    }
+
+    .main__tools-icon{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #FF3E79;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__tools-title_desktop{
+        display: block;
+        align-self: center;
+        font-family: 'TT Lakes-Regular', serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        letter-spacing: -0.2px;
+        color: #1B1C21;
     }
 }
 
